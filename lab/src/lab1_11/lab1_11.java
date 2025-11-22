@@ -6,9 +6,9 @@ public class lab1_11 {
 		int sum = 0;
 		for (int i = 0; i < maxarray; i++) {
 			sum += allarray[i];
-		}	// End For Loop
-		return sum;	//	ส่งค่าของ sum กลับ
-	}	//	End sumArray
+		}
+		return sum;
+	}
 	
 	public static void main(String[] args) {
 		System.out.print("Enter number : ");
@@ -19,10 +19,10 @@ public class lab1_11 {
 		for (int i = 0; i < maxarray; i++) {
 			int numarray = input.nextInt();
 			allarray[i] = numarray;
-		}	// End For Loop
+		}
 		
 		int outputArray = sumArray(allarray , maxarray);
-		System.out.println(outputArray);	//	เเสดงค่าของ outputArray
-		input.close();	//	ปิดการรับค่าจากผู้ใช้
-	}	//	End main
-}	// End class lab1_11
+		System.out.println(outputArray);
+		input.close();
+	}
+}
