@@ -11,7 +11,7 @@ public class lab1_12 {
 		for (int i = 0; i < Inventory; i++) {
 			product_ID[i] = input.nextInt();
 			product_Stock[i] = input.nextInt();
-		}	// End For Loop
+		}
 		
 		boolean check = false;
 		int searchID = input.nextInt();
@@ -20,7 +20,7 @@ public class lab1_12 {
 			if (product_ID[i] == searchID) {
 				System.out.println(product_Stock[i]);
 				check = true;
-			}	// End if
-		}	// End For Loop
-	}	//	End main
-}	// End Class
+			}
+		}
+	}
+}
