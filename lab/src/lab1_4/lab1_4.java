@@ -3,21 +3,21 @@ import java.util.Scanner;
 
 public class lab1_4 {
 	public static void main(String[] args) {
-		int number001;
-		System.out.println("Enter number :");
+		int Scores;
+		System.out.print("Enter number : ");
 		Scanner input = new Scanner(System.in);
-		number001 = input.nextInt();
+		Scores = input.nextInt();
 		input.close();
 		
-		if (number001 >= 80 ) {
+		if (Scores >= 80 ) {
 			System.out.println("A");
-		} else if (number001 >= 70) {
+		} else if (Scores >= 70) {
 			System.out.println("B");
-		} else if (number001 >= 60 ) {
+		} else if (Scores >= 60 ) {
 			System.out.println("C");
-		} else if (number001 >= 50 ) {
+		} else if (Scores >= 50 ) {
 			System.out.println("D");
-		} else if (number001 < 50 ) {
+		} else if (Scores < 50 ) {
 			System.out.println("F");
 		}
 	}
