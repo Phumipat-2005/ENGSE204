@@ -2,7 +2,6 @@ package lab2_3;
 import java.util.Scanner;
 
 public class lab2_3 {
-	
 	private String studentid;
 	private String name;
 	private static int studentcount = 0;
