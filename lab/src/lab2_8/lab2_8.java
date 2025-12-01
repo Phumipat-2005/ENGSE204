@@ -12,7 +12,7 @@ public class lab2_8 {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Select Mode (C TO F or F TO C): ");
+		System.out.print("Select Mode (C_TO_F or F_TO_C): ");
 		String mode = scanner.nextLine();
 		System.out.print("Enter Temperature: ");
 		double temperature = scanner.nextDouble();
